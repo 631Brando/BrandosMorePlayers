@@ -1,0 +1,24 @@
+# This repository publishes RELEASES ONLY - the packaged mod, not the Unreal
+# project it is built from. The source lives in the cooked editor SDK project
+# and is deliberately kept out of here.
+#
+# These patterns are a safety net: if a source folder is ever copied or dragged
+# in by accident, it cannot be committed without someone noticing.
+*.uasset
+*.umap
+*.bak
+Content/
+Intermediate/
+Saved/
+Binaries/
+DerivedDataCache/
+*.uproject
+*.sln
+
+# The packaged mod itself is NOT ignored - the .pak/.ucas/.utoc trio belongs in
+# the release, and may be committed here too if a copy in the tree is wanted.
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
