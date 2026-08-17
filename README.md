@@ -29,7 +29,7 @@ BrandosMorePlayers_P.utoc
 Put all three into:
 
 ```
-<game folder>\DDS2\Content\Paks\LogicMods\
+<game folder>\DrugDealerSimulator2\Content\Paks\LogicMods\
 ```
 
 All three are required. A `.pak` on its own will not load: the asset data lives in the `.ucas`
